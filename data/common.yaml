@@ -1,0 +1,4 @@
+---
+ntp::servers:
+  - 0.pool.us.ntp.org
+  - 1.pool.us.ntp.org
