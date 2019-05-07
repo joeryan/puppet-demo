@@ -1,5 +1,5 @@
 node joeryan2c.mylabserver.com {
-    package {'httpd':
+    package {i['apache2', 'cowsay']:
         ensure => installed,
     }
 }
